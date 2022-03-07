@@ -1,6 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 import { TiArrowBackOutline } from 'react-icons/ti';
-import { AiOutlineSetting as Settings, HiOutlineMicrophone } from 'react-icons/ai';
+import { AiOutlineSetting as Settings } from 'react-icons/ai';
+import { FaMicrophone as Mic } from 'react-icons/fa';
+
 import logo from '../assets/logo.png';
 
 const Header = () => {
@@ -16,7 +18,7 @@ const Header = () => {
         <img src={logo} alt="logo" className="logo" />
         <h1> 2022 Covid-Tracker</h1>
         <div>
-          <HiOutlineMicrophone />
+          <Mic />
           <Settings />
         </div>
       </div>
