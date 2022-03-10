@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import React, { useState } from 'react';
+import styles from '../styles/continent.module.scss';
 
 const Pagination = (props) => {
   const { countryPages, itemsPerPage, onPageChange } = props;
@@ -18,7 +19,7 @@ const Pagination = (props) => {
   }
 
   return (
-    <div className="buttons">{buttons}</div>
+    <div className={styles.buttons}>{buttons}</div>
   );
 };
 

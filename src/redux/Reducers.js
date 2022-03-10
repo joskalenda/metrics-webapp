@@ -1,6 +1,6 @@
 import Africa from '../assets/Africa.png';
 import Asia from '../assets/asia.png';
-import Australia from '../assets/australia.png';
+import Australia from '../assets/Oceania.svg';
 import Europe from '../assets/europe.png';
 import Northamerica from '../assets/northamerica.png';
 import Southamerica from '../assets/southamerica.png';

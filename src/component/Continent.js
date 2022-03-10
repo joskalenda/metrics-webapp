@@ -3,10 +3,11 @@ import {
   Link, useNavigate, useLocation, useParams,
 } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
-import { FaSearchLocation as Searchbar } from 'react-icons/fa';
+import { FaRegArrowAltCircleRight as CircleIcon } from 'react-icons/fa';
 import FetchData from '../redux/Api';
 import SetPagination from './SetPagination';
 import { GetStates } from '../redux/Reducers';
+import styles from '../styles/continent.module.scss';
 
 const Continent = () => {
   const Countries = useSelector((store) => store.details);
@@ -39,38 +40,34 @@ const Continent = () => {
     setSearchValue(event.target.value);
   };
 
-  // const itemsPerPage = 10;
+  const itemsPerPage = 10;
 
-  const tenItems = Continents.slice(page * 10, (page * 10) + 10);
+  const tenItems = Continents.slice(page * itemsPerPage, (page * itemsPerPage) + itemsPerPage);
 
   return (
-    <div>
-      <div>
+    <div className={styles.continentContainer}>
+      <div className={styles.headerContinent}>
         <h1>{continent}</h1>
         <h3>{totalPopulation.population.toLocaleString()}</h3>
       </div>
-      <form>
-        <div>
-          <Searchbar />
-        </div>
-        <div>
-          <input type="text" value={searchValue} placeholder="Search for country..." onChange={countryFilterOnChange} />
-        </div>
+      <form className={styles.form}>
+        <input type="text" value={searchValue} placeholder="Search for country..." onChange={countryFilterOnChange} />
       </form>
-      <ul>
+      <ul className={styles.ulcountries}>
         {
         tenItems.map((country) => (
           <Link key={country.country} to={{ pathname: `/country/${country.country}` }}>
-            <li>
+            <li className={styles.licountries}>
+              <p><CircleIcon /></p>
               <div>
-                <h1>
+                <h1 className={styles.countryName}>
                   {country.country}
                 </h1>
-                <p>
+                <p className={styles.totalpopulation}>
                   {country.population.toLocaleString()}
                 </p>
               </div>
-              <div>
+              <div className={styles.mapDivCountries}>
                 <img src={country.country_flag} alt="flag" className="flag" />
               </div>
             </li>
@@ -80,7 +77,7 @@ const Continent = () => {
       </ul>
       <SetPagination
         countryPages={Continents.length}
-        itemsPerPage={10}
+        itemsPerPage={itemsPerPage}
         onPageChange={setPage}
       />
     </div>

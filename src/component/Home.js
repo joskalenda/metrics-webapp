@@ -8,22 +8,21 @@ const Home = () => {
 
   return (
 
-    <div id={AllContinents}>
-      <h1> Real time information (24H / 24) </h1>
-      <ul>
+    <div className={styles.HomeContainer} id={AllContinents}>
+      <ul className={styles.ulcontinent}>
         {
       AllContinents.map((continent) => (
         <Link key={continent.name} to={{ pathname: `/continent/${continent.name}` }}>
-          <li>
+          <li className={styles.licontinent}>
             <div>
-              <h1>{continent.name}</h1>
-              <h2>
+              <h2 className={styles.continentName}>{continent.name}</h2>
+              <h2 className={styles.countryNumber}>
                 {continent.number}
                 {' '}
                 countries
               </h2>
             </div>
-            <div>
+            <div className={styles.mapDiv}>
               <img src={continent.map} alt="Continent map" className={`map ${continent.classname}`} />
             </div>
           </li>
