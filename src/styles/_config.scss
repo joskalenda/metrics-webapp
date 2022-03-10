@@ -1,0 +1,24 @@
+
+$text-color: #fff;
+$neutral: #000;
+$hd1-background-color: rgb(182, 63, 162);
+$hd2-background-color:rgb(163, 48, 48);
+$a-background-color: rgb(212, 67, 140);
+$hover-color: rgba(153, 0, 0, 0.9);
+$a-child-bg: rgb(223, 89, 156);
+$net-bg-color: rgb(212, 67, 140);
+$ch-net-bg-color: rgb(223, 89, 156);
+
+@mixin display-align ( $color, $position, $bg-color) {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: $color;
+  justify-content: $position;
+  background-color: $bg-color;
+}
+
+@mixin init_pad_marg ($pad, $mag){
+  padding: $pad;
+  margin: $mag;
+}

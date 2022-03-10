@@ -1,0 +1,50 @@
+@import 'config';
+
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  @include init_pad_marg(0, 0);
+}
+
+.navBar {
+  
+  span {
+    @include display-align($text-color, space-between, $hd1-background-color);
+    height: 50px;
+
+    img {
+      width: 60px;
+      padding: 14px;
+      color: #fff;
+      display: none;
+    }
+
+    h1 {
+      font-weight: 900;
+      color: $text-color;
+      padding: 14px;
+    }
+
+    div {
+      display: flex;
+      gap: 10px;
+      padding: 14px;
+    }
+  }
+
+  .nav2 {
+    @include display-align($text-color, center, $hd2-background-color);
+    @include init_pad_marg(0, 0);
+
+    a {
+      font-size: 20px;
+      color: $text-color;
+      transform: translateX(-80px);
+    }
+  }
+
+
+}
