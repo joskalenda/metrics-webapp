@@ -6,10 +6,13 @@ Covid 19 Data is a tracking site that provides the necessary information on covi
 
 ## Projects Details
 
-> |-|  Continents  |-| Countries |-| Country detail |-| Testing   |-|
-> |-|--------------|-|-----------|-|----------------|-|-----------|-|
-> |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/desk1.png) |-| ![screenshot](./src/assets/mobile1.png) |-| ![screenshot](./src/assets/test.png) |-|
+> |-|  Continents  |-| Countries |-|
+> |-|--------------|-|-----------|-|
+> |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/desk1.png)
 
+> |-| Country detail |-| Testing   |-|
+> |-|----------------|-|-----------|-|
+> |-| ![screenshot](./src/assets/mobile1.png) |-| ![screenshot](./src/assets/test.png) |-|
 
 Additional description about the project and its features.
 
