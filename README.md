@@ -8,6 +8,12 @@ Covid 19 Data is a tracking site that provides the necessary information on covi
 > |-|--------------|-|-----------|-|
 > |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/mobile.png) |-|
 
+## Test run
+
+> |-|   Test    |-|
+> |-|--------------|-|
+> |-| ![screenshot](./src/assets/test.png) |-|
+
 Additional description about the project and its features.
 
 ## Built With
