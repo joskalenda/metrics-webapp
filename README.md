@@ -4,9 +4,9 @@
 
 Covid 19 Data is a tracking site that provides the necessary information on covid 19 cases in any African country and their update
 
-> |-|   Desktop    |-|   Mobile  |-|
-> |-|--------------|-|-----------|-|
-> |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/mobile.png) |-|
+> | |   Desktop    | |   Mobile  | |
+> | |--------------| |-----------| |
+> | | ![screenshot](./src/assets/desk.png) | | ![screenshot](./src/assets/mobile.png) | |
 
 Additional description about the project and its features.
 
@@ -33,21 +33,27 @@ Additional description about the project and its features.
 
 
 ```bash
+
 $ npm i #install dependencies
 $ npm start # Runs the app in the development mode
 $ npm test #Launches the test runner in the interactive watch mode
+
 ```
 
 # Acknowledgment
 
 - [Nelson Sakwa](https://www.behance.net/sakwadesignstudio) the [author of the original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)), as required by the [Creative Commons License](https://creativecommons.org/licenses/)
 
+## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the issues page.
+Feel free to check the [issues page](https://github.com/joskalenda/metrics-webapp/issues).
 
-Show your support
+## Show your support
+
 Give a ⭐️ if you like this project!
 
-📝 License
-This project is MIT licensed
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
