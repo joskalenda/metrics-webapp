@@ -4,15 +4,16 @@
 
 Covid 19 Data is a tracking site that provides the necessary information on covid 19 cases in any African country and their update
 
-> || Desktop  || Mobile||
-> ||----------||-------||
-> ||![screenshot](./src/assets/desk.png) ||![screenshot](./src/assets/mobile.png) ||
+> |-|   Desktop    |-|   Mobile  |-|
+> |-|--------------|-|-----------|-|
+> |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/mobile.png) |-|
 
 Additional description about the project and its features.
 
 ## Built With
 
-- API, ReactJS & Redux.
+- API
+- ReactJS & Redux.
 
 ## Live Demo
 
@@ -24,19 +25,18 @@ Additional description about the project and its features.
 
 # Authors
 
-GitHub: [Jos Kalenda](https://www.linkedin.com/in/jos-kalenda/)
-Twitter: [Jos Kalenda](https://twitter.com/JosKalenda)
-LinkedIn: [Jos Kalenda](https://github.com/JosKalenda)
+👤 **Jos Kalenda**
 
-### `npm start`
-Runs the app in the development mode
-### `npm test`
-Launches the test runner in the interactive watch mode
-### `npm run build`
+- GitHub: [Jos Kalenda](https://www.linkedin.com/in/jos-kalenda/)
+- Twitter: [Jos Kalenda](https://twitter.com/JosKalenda)
+- LinkedIn: [Jos Kalenda](https://github.com/JosKalenda)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
+```bash
+$ npm i #install dependencies
+$ npm start # Runs the app in the development mode
+$ npm test #Launches the test runner in the interactive watch mode
+```
 
 # Acknowledgment
 
