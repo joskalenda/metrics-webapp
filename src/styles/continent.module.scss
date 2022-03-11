@@ -116,6 +116,7 @@
 
 .detailsContainer {
   background-color: #c92f7c;
+
   div.countryDetails {
     @include display-align (default, space-evenly, $net-bg-color);
 
@@ -134,13 +135,13 @@
 
   .uldetails {
     @include display-align($text-color,default, $net-bg-color);
+    @include init_pad_marg(0, 0 auto);
+
     border: 1px solid rgb(244, 244, 247);
     flex-direction: column;
     width: 450px;
-    border-radius: 9px;  
-    @include init_pad_marg(0, 0 auto);
+    border-radius: 9px;
 
-    flex-direction: column;
     .lidetails {
       @include display-align($text-color,space-between, $net-bg-color);
       @include init_pad_marg(0, 0);
@@ -151,7 +152,7 @@
         @include init_pad_marg(14px, 0);
       }
 
-      p {
+      p.numberdetail {
         margin-right: 14px;
       }
 

@@ -32,38 +32,38 @@ const Country = () => {
           <h3>Today&apos;s update:</h3>
           <li className={styles.lidetails}>
             <h4>New cases:</h4>
-            <p>{findCountry.todays_cases.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.todays_cases.toLocaleString()}</p>
           </li>
           <li className={styles.lidetails}>
             <h4>Confirmed deaths:</h4>
-            <p>{findCountry.todays_deaths.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.todays_deaths.toLocaleString()}</p>
           </li>
           <li className={styles.lidetails}>
             <h4>New Recoveries:</h4>
-            <p>{findCountry.todays_recovered.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.todays_recovered.toLocaleString()}</p>
           </li>
         </ul>
         <ul className={styles.ultotal}>
           <h3>Total:</h3>
           <li className={styles.litotal}>
             <h4>Confirmed cases:</h4>
-            <p>{findCountry.total_cases.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.total_cases.toLocaleString()}</p>
           </li>
           <li className={styles.litotal}>
             <h4>Recovered:</h4>
-            <p>{findCountry.total_recovered.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.total_recovered.toLocaleString()}</p>
           </li>
           <li className={styles.litotal}>
             <h4>Active Cases:</h4>
-            <p>{findCountry.total_active.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.total_active.toLocaleString()}</p>
           </li>
           <li className={styles.litotal}>
             <h4>Total Tests:</h4>
-            <p>{findCountry.total_tests.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.total_tests.toLocaleString()}</p>
           </li>
           <li className={styles.litotal}>
             <h4>Deaths:</h4>
-            <p>{findCountry.total_deaths.toLocaleString()}</p>
+            <p className={styles.numberdetail}>{findCountry.total_deaths.toLocaleString()}</p>
           </li>
         </ul>
       </div>
