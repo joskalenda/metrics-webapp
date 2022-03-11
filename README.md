@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[See Demo](https://metrics-app-jos.netlify.app/)
+[See Demo](........)
 
 ## Presentation Video
 
