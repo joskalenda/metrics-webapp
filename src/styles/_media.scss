@@ -42,7 +42,7 @@
 
     .form input {
       @include init_pad_marg(0, 0);
-      @include display-align(default, center, rgb(17, 17, 17));
+      @include display-align(#fff, center, rgb(17, 17, 17));
 
       width: 99.8%;
       height: 40px;

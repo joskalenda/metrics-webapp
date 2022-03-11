@@ -27,7 +27,7 @@ Additional description about the project and its features.
 
 ## Presentation Video
 
-[See Video]()
+[See Video](https://www.loom.com/share/1ba8b442a6f6449083f6a8c03e5f648e)
 
 # Authors
 
