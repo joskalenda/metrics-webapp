@@ -8,22 +8,29 @@ Covid 19 Data is a tracking site that provides the necessary information on covi
 > |-|--------------|-|-----------|-|
 > |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/mobile.png) |-|
 
+
+## Test run
+
+> |-|   Test    |-|
+> |-|--------------|-|
+> |-| ![screenshot](./src/assets/test.png) |-|
+
 Additional description about the project and its features.
 
 ## Built With
 
 - API
-- ReactJS & Redux.
+- ReactJS & Redux
 
 ## Live Demo
 
-[See Demo]()
+[See Demo](https://metrics-app-jos.netlify.app/)
 
 ## Presentation Video
 
 [See Video]()
 
-# Authors
+## Authors
 
 👤 **Jos Kalenda**
 
