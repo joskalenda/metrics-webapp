@@ -40,7 +40,7 @@ const Continent = () => {
     setSearchValue(event.target.value);
   };
 
-  const itemsPerPage = 10;
+  const itemsPerPage = 12;
 
   const tenItems = Continents.slice(page * itemsPerPage, (page * itemsPerPage) + itemsPerPage);
 

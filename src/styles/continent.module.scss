@@ -67,7 +67,7 @@
         }
 
         p {
-          @include init_pad_marg(0, -20px 0 0 130px);
+          @include init_pad_marg(0, 0 0 0 190px);
 
           color: $text-color;
         }
@@ -81,10 +81,11 @@
 
         div.mapDivCountries {
           height: 40%;
-          width: 100%;
+          width: 40%;
 
           img {
             width: 100%;
+            border-radius: 9px;
             height: 100%;
           }
         }
@@ -114,6 +115,7 @@
 }
 
 .detailsContainer {
+  background-color: #c92f7c;
   div.countryDetails {
     @include display-align (default, space-evenly, $net-bg-color);
 
@@ -132,11 +134,13 @@
 
   .uldetails {
     @include display-align($text-color,default, $net-bg-color);
+    border: 1px solid rgb(244, 244, 247);
+    flex-direction: column;
+    width: 450px;
+    border-radius: 9px;  
+    @include init_pad_marg(0, 0 auto);
 
     flex-direction: column;
-
-    @include init_pad_marg(0, 0);
-
     .lidetails {
       @include display-align($text-color,space-between, $net-bg-color);
       @include init_pad_marg(0, 0);
@@ -147,7 +151,7 @@
         @include init_pad_marg(14px, 0);
       }
 
-      .lidetails p {
+      p {
         margin-right: 14px;
       }
 
@@ -165,3 +169,5 @@
     }
   }
 }
+
+@import 'media';
