@@ -4,15 +4,12 @@
 
 Covid 19 Data is a tracking site that provides the necessary information on covid 19 cases in any African country and their update
 
-> |-|   Desktop    |-|   Mobile  |-|
-> |-|--------------|-|-----------|-|
-> |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/mobile.png) |-|
+## Projects Details
 
-## Test run
+> |-|  Continents  |-| Countries |-| Country detail |-| Testing   |-|
+> |-|--------------|-|-----------|-|----------------|-|-----------|-|
+> |-| ![screenshot](./src/assets/desk.png) |-| ![screenshot](./src/assets/desk1.png) |-| ![screenshot](./src/assets/mobile1.png) |-| ![screenshot](./src/assets/test.png) |-|
 
-> |-|   Test    |-|
-> |-|--------------|-|
-> |-| ![screenshot](./src/assets/test.png) |-|
 
 Additional description about the project and its features.
 
@@ -23,7 +20,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[See Demo]()
+[See Demo](https://metrics-app-jos.netlify.app/)
 
 ## Presentation Video
 
