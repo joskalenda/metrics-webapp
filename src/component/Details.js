@@ -24,7 +24,7 @@ const Country = () => {
     <div className={styles.detailsContainer}>
       <div className={styles.countryDetails}>
         <h1>{name}</h1>
-        <img src={findCountry.country_flag} alt="flag" className="flag2" />
+        <img src={findCountry.country_flag} alt="flag" className={styles.flag2} />
         <h2>{findCountry.population.toLocaleString()}</h2>
       </div>
       <div>

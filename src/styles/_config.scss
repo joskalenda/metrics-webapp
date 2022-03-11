@@ -18,7 +18,7 @@ $ch-net-bg-color: rgb(223, 89, 156);
   background-color: $bg-color;
 }
 
-@mixin init_pad_marg ($pad, $mag){
+@mixin init_pad_marg ($pad, $mag) {
   padding: $pad;
   margin: $mag;
 }

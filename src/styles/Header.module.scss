@@ -10,9 +10,9 @@ body {
 }
 
 .navBar {
-  
   span {
     @include display-align($text-color, space-between, $hd1-background-color);
+
     height: 50px;
 
     img {
@@ -45,6 +45,4 @@ body {
       transform: translateX(-80px);
     }
   }
-
-
 }
