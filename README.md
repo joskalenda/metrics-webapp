@@ -29,14 +29,17 @@ Additional description about the project and its features.
 
 [See Video](https://www.loom.com/share/1ba8b442a6f6449083f6a8c03e5f648e)
 
-# Authors
 
-👤 **Jos Kalenda**
+## Get the project
 
-- GitHub: [Jos Kalenda](https://www.linkedin.com/in/jos-kalenda/)
-- Twitter: [Jos Kalenda](https://twitter.com/JosKalenda)
-- LinkedIn: [Jos Kalenda](https://github.com/JosKalenda)
+```bash
 
+$ git clone https://github.com/joskalenda/metrics-webapp.git
+$ cd metrics-webapp
+
+```
+
+## Run the project
 
 ```bash
 
@@ -45,6 +48,15 @@ $ npm start # Runs the app in the development mode
 $ npm test #Launches the test runner in the interactive watch mode
 
 ```
+
+## Authors
+
+👤 **Jos Kalenda**
+
+- GitHub: [Jos Kalenda](https://www.linkedin.com/in/jos-kalenda/)
+- Twitter: [Jos Kalenda](https://twitter.com/JosKalenda)
+- LinkedIn: [Jos Kalenda](https://github.com/JosKalenda)
+
 
 ## Acknowledgment
 
