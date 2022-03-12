@@ -73,7 +73,7 @@ export const StatsReducer = (state = initialState, action) => {
 //     number: 54,
 //   },
 //   {
-  // create array for countries
+// create array for countries
 //     name: 'Asia',
 //     classname: 'Asia',
 //     map: Asia,
