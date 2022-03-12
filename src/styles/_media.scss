@@ -1,0 +1,149 @@
+@import 'config';
+
+@media (min-width: $layout-breakpoint-small) {
+  .navBar {
+    span {
+      height: 90px;
+
+      img {
+        width: 70px;
+        display: flex;
+      }
+
+      h1 {
+        font-weight: 900;
+      }
+
+      div {
+        font-size: 30px;
+        gap: 20px;
+        padding: 20px;
+      }
+    }
+
+    .nav2 {
+      a {
+        font-size: 28px;
+        transform: translateX(-390px);
+      }
+    }
+  }
+
+  .continentContainer {
+    div.headerContinent {
+      @include display-align($text-color, center, #b15555);
+
+      h1 {
+        @include init_pad_marg(8px, 0);
+
+        font-size: 24px;
+      }
+    }
+
+    .form input {
+      @include init_pad_marg(0, 0);
+      @include display-align(#fff, center, rgb(17, 17, 17));
+
+      width: 99.8%;
+      height: 40px;
+      font-size: 20px;
+    }
+
+    .ulcountries {
+      grid-template-columns: 25% 25% 25% 25%;
+
+      a {
+        .licountries {
+          &:hover {
+            border: 1px solid lightgrey;
+          }
+
+          h1.countryName {
+            @include init_pad_marg (5px 10px, 0);
+
+            font-size: 20px;
+          }
+
+          p {
+            @include init_pad_marg(0, -10px 0 0 180px);
+          }
+
+          p.totalpopulation {
+            @include init_pad_marg (5px, 0);
+          }
+
+          div.mapDivCountries {
+            height: 40%;
+            width: 70%;
+
+            img {
+              width: 100%;
+              border-radius: 8px;
+              height: 100%;
+            }
+          }
+        }
+
+        &:nth-child(1),
+        &:nth-child(8n + 8),
+        &:nth-child(11n + 11),
+        &:nth-child(3n + 3) {
+          background-color: #c92f7c;
+        }
+
+        &:nth-child(12n + 12) {
+          background-color: $net-bg-color;
+        }
+      }
+    }
+  }
+
+  .buttons {
+    @include display-align(none, center, black);
+
+    gap: 20px;
+
+    @include init_pad_marg(10px, 0 auto);
+
+    button {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .detailsContainer {
+    background-color: #c92f7c;
+
+    div.countryDetails {
+      h1,
+      h2 {
+        font-size: 24px;
+      }
+    }
+
+    .uldetails {
+      @include display-align($text-color,default, $net-bg-color);
+
+      width: 900px;
+
+      .lidetails {
+        @include display-align($text-color,space-between, $net-bg-color);
+        @include init_pad_marg(0, 0);
+
+        width: 100%;
+
+        h4 {
+          @include init_pad_marg(14px, 0);
+        }
+
+        p.numberdetail {
+          margin-right: 20px;
+        }
+
+        &:nth-child(even) {
+          background-color: $ch-net-bg-color;
+        }
+      }
+    }
+  }
+}
