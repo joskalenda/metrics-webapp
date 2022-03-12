@@ -23,7 +23,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[See Demo](..deploy failed for no reason.)
+[See Demo](https://distracted-kirch-c847e7.netlify.app/)
 
 ## Presentation Video
 
